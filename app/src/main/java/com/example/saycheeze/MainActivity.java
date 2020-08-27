@@ -1,7 +1,11 @@
 package com.example.saycheeze;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,8 +18,10 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -49,6 +55,7 @@ public class MainActivity extends AppCompatActivity
     private Mat matResult;
 
     private CameraBridgeViewBase mOpenCvCameraView;
+    //private Object obj;
 
     //public native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
     public native long loadCascade(String cascadeFileName );
@@ -157,16 +164,10 @@ public class MainActivity extends AppCompatActivity
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(1); // front-camera(1),  back-camera(0)
 
-        ImageButton bluetoothbutton = (ImageButton)findViewById(R.id.bluetooth);
-
-        bluetoothbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Intent in = new Intent(getApplicationContext(), bluetoothActivity.class);
-                startActivity(in);
-
-            }
-        });
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+        fragmentTransaction.add(R.id.fragment, new Main_Fragment());
+        fragmentTransaction.commit();
 
         /*---------------------- 카메라 촬영 버튼 클릭 이벤트 ---------------------------------------*/
         ImageButton button = (ImageButton)findViewById(R.id.button);
@@ -201,31 +202,6 @@ public class MainActivity extends AppCompatActivity
             }
         });
         /*-------------------------------------------------------------------------------------------------------*/
-
-
-        /*소연작성*/
-        ImageButton watermark = (ImageButton)findViewById(R.id.watermark);
-        watermark.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                //Toast.makeText(getApplicationContext(), "워터마크", Toast.LENGTH_LONG).show();
-
-                Intent intent1 = new Intent(getApplicationContext(), NewActivity.class);
-                startActivity(intent1);
-            }
-        });
-
-        final int GET_GALLERY_IMAGE = 200;
-
-        ImageButton gallery = (ImageButton)findViewById(R.id.gallery);
-        gallery.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,"image/*");
-                startActivityForResult(intent,GET_GALLERY_IMAGE);
-            }
-        });
-
-
     }
 
     @Override

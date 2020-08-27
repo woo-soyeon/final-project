@@ -7,26 +7,28 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-
     <FrameLayout
-        android:layout_width="650dp"
+        android:layout_width="620dp"
         android:layout_height="match_parent">
 
         <org.opencv.android.JavaCameraView
             android:id="@+id/activity_surface_view"
-            android:layout_width="650dp"
+            android:layout_width="620dp"
             android:layout_height="match_parent" />
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="match_parent"
+            android:layout_width="620dp"
             android:layout_height="match_parent" />
+
+
     </FrameLayout>
 
     <ScrollView
         android:orientation="vertical"
-        android:layout_width="90dp"
+        android:layout_width="110dp"
         android:layout_height="match_parent"
+
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:background="#ffffff" >
@@ -67,7 +69,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/mark7b"
                 android:background="@android:color/transparent"
-                android:scaleType="centerCrop"/>
+                android:scaleType="fitCenter"/>
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="match_parent"
@@ -108,9 +110,4 @@
 
     </ScrollView>
 
-
 </RelativeLayout>
-
-
-
-    <!--소연작성-->
