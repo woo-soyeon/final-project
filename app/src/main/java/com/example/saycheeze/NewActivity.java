@@ -39,6 +39,7 @@ public class NewActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ImageView view1 = (ImageView) findViewById(R.id.imageView1);
                 view1.setImageResource(R.drawable.mark2);
+
             }
         });
 

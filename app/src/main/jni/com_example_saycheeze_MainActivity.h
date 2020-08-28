@@ -20,11 +20,18 @@ JNIEXPORT jlong JNICALL Java_com_example_saycheeze_MainActivity_loadCascade
 /*
  * Class:     com_example_saycheeze_MainActivity
  * Method:    detect
- * Signature: (JJJJ)V
+ * Signature: (JJJJ)I
  */
-JNIEXPORT void JNICALL Java_com_example_saycheeze_MainActivity_detect
+JNIEXPORT jint JNICALL Java_com_example_saycheeze_MainActivity_detect
   (JNIEnv *, jobject, jlong, jlong, jlong, jlong);
 
+/*
+ * Class:     com_example_saycheeze_MainActivity
+ * Method:    detectx
+ * Signature: (JJJJ)I
+ */
+JNIEXPORT jint JNICALL Java_com_example_saycheeze_MainActivity_detectx
+  (JNIEnv *, jobject, jlong, jlong, jlong, jlong);
 
 #ifdef __cplusplus
 }

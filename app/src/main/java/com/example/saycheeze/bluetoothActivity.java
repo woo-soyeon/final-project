@@ -79,6 +79,23 @@ public class bluetoothActivity extends AppCompatActivity {
 
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
+
+        Intent secondin = getIntent();
+        int facex = secondin.getIntExtra("x좌표", 0);
+        int facey = secondin.getIntExtra("y좌표",0);
+
+        String datax = Integer.toString(facex);
+        String datay = Integer.toString(facey);
+
+        String data = datax + " " + datay;
+
+        mTvSendData.setText(data);
+/*
+        if(mThreadConnectedBluetooth != null) {
+            mThreadConnectedBluetooth.write(data);
+        }
+
+ */
         goResult.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view){

@@ -13,11 +13,12 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
+
 import android.util.Log;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
+
 import android.widget.ImageButton;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -39,6 +40,7 @@ import java.util.concurrent.Semaphore;
 
 import static android.Manifest.permission.CAMERA;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+import static java.sql.Types.NULL;
 
 
 public class MainActivity extends AppCompatActivity
@@ -52,7 +54,9 @@ public class MainActivity extends AppCompatActivity
 
     //public native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
     public native long loadCascade(String cascadeFileName );
-    public native void detect(long cascadeClassifier_face,
+    public native int detect(long cascadeClassifier_face,
+                             long cascadeClassifier_eye, long matAddrInput, long matAddrResult);
+    public native int detectx(long cascadeClassifier_face,
                               long cascadeClassifier_eye, long matAddrInput, long matAddrResult);
 
 
@@ -152,12 +156,15 @@ public class MainActivity extends AppCompatActivity
 
         setContentView(R.layout.activity_main);
 
+
+
         mOpenCvCameraView = (CameraBridgeViewBase)findViewById(R.id.activity_surface_view);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(1); // front-camera(1),  back-camera(0)
 
         ImageButton bluetoothbutton = (ImageButton)findViewById(R.id.bluetooth);
+
 
         bluetoothbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -278,18 +285,32 @@ public class MainActivity extends AppCompatActivity
             /*--------------------------------------*/
             /*-----예외처리-----*/
 
-        matInput = inputFrame.rgba();
+            matInput = inputFrame.rgba();
 
-        if ( matResult == null )
+            if ( matResult == null )
 
-            matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
+                matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
-        //ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
-        Core.flip(matInput, matInput, 1);
+            //ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
+            Core.flip(matInput, matInput, 1);
 
-        detect(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
-                matResult.getNativeObjAddr());
+            int facex = detect(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
+                    matResult.getNativeObjAddr());
+            int facey = detectx(cascadeClassifier_face,cascadeClassifier_eye, matInput.getNativeObjAddr(),
+                    matResult.getNativeObjAddr());
 
+
+
+
+                Intent in = new Intent(this, bluetoothActivity.class);
+                in.putExtra("x좌표", facex);
+                in.putExtra("y좌표", facey);
+                startActivity(in);
+
+
+
+
+            Log.d(TAG, "face " + facex + " " + facey + " found");
 
 
         } catch (InterruptedException e) {
