@@ -36,10 +36,32 @@
             android:layout_gravity="left|top"
             android:background="@color/white">
             <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
                 android:id="@+id/bluetooth"
-                android:src="@drawable/bluetooth"/>
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="7dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bluetooth"
+
+                android:text="bluetooth"/>
+
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="7dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/info"
+
+                android:text="bluetooth"/>
         </FrameLayout>
 
 
