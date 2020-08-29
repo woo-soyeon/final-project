@@ -1,5 +1,6 @@
 package com.example.saycheeze;
 
+import android.media.Image;
 import android.os.Bundle;
 
 import android.view.View;
@@ -21,7 +22,7 @@ public class NewActivity extends AppCompatActivity {
         setContentView(R.layout.watermark_view);
 
 
-        Button back = (Button)findViewById(R.id.back);
+        ImageButton back = (ImageButton)findViewById(R.id.back);
 
         back.setOnClickListener(new OnClickListener() {
 

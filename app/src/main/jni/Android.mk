@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 
 #opencv library
 OPENCVROOT:= C:\Users\colin\AndroidStudioProjects\saycheeze\sdk
-
+#OPENCVROOT:= C:\Users\DEFAVORITE\Desktop\sayCheese_final\sdk
 OPENCV_CAMERA_MODULES:=on
 OPENCV_INSTALL_MODULES:=on
 OPENCV_LIB_TYPE:=SHARED
