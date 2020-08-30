@@ -70,6 +70,19 @@
             android:background="@android:color/transparent"
             />
 
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+
+
+
+            android:text=" " />
+
         <ImageButton
             android:id="@+id/watermark"
             android:layout_width="45dp"

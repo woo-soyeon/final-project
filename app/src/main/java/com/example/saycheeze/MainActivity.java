@@ -19,6 +19,7 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.WindowManager;
 
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -165,7 +166,7 @@ public class MainActivity extends AppCompatActivity
 
         ImageButton bluetoothbutton = (ImageButton)findViewById(R.id.bluetooth);
 
-
+        EditText data = findViewById(R.id.data);
         bluetoothbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -302,10 +303,15 @@ public class MainActivity extends AppCompatActivity
 
 
 
+            /*
                 Intent in = new Intent(this, bluetoothActivity.class);
                 in.putExtra("x좌표", facex);
                 in.putExtra("y좌표", facey);
                 startActivity(in);
+            */
+
+
+
 
 
 

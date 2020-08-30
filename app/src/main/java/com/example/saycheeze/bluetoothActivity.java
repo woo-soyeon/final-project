@@ -80,6 +80,7 @@ public class bluetoothActivity extends AppCompatActivity {
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
 
+        /*
         Intent secondin = getIntent();
         int facex = secondin.getIntExtra("x좌표", 0);
         int facey = secondin.getIntExtra("y좌표",0);
@@ -90,6 +91,8 @@ public class bluetoothActivity extends AppCompatActivity {
         String data = datax + " " + datay;
 
         mTvSendData.setText(data);
+        */
+
 /*
         if(mThreadConnectedBluetooth != null) {
             mThreadConnectedBluetooth.write(data);
