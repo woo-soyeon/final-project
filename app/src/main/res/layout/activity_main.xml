@@ -70,8 +70,11 @@
             android:background="@android:color/transparent"
             />
 
+<<<<<<< HEAD
      
 
+=======
+>>>>>>> parent of cb07590... 0830
         <ImageButton
             android:id="@+id/watermark"
             android:layout_width="45dp"
