@@ -68,6 +68,7 @@
             android:src="@drawable/camerabtn"
             android:background="@android:color/transparent"
             />
+       
         <ImageButton
             android:id="@+id/watermark"
             android:layout_width="45dp"
