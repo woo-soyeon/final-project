@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\colin\AndroidStudioProjects\realsay\sdk\src\main\assets"/><source path="C:\Users\colin\AndroidStudioProjects\realsay\sdk\build\intermediates\shader_assets\debug\out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\colin\AndroidStudioProjects\realsay\sdk\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\src\main\assets"/><source path="C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\build\intermediates\shader_assets\debug\out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\src\debug\assets"/></dataSet></merger>
+>>>>>>> 7113ce5b884aebda6fc01dda15b0a6f7b4143fbb

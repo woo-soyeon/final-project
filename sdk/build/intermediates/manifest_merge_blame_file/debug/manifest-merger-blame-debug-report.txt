@@ -6,8 +6,14 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
+<<<<<<< HEAD
 8-->C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml
 9        android:targetSdkVersion="26" />
 9-->C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml
+=======
+8-->C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+>>>>>>> 7113ce5b884aebda6fc01dda15b0a6f7b4143fbb
 10
 11</manifest>

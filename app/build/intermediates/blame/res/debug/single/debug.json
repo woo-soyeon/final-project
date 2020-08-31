@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark5.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark5.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bluetooth.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\bluetooth.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluetooth.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_gallerybtn.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\gallerybtn.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark3.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark3.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_art.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\art.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_watermarkmain.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\watermarkmain.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\layout_watermark_view.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\layout\\watermark_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_camerabtn.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\camerabtn.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark4b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark4b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark5b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark5b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark6.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark6.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark3b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark3b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark6b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark6b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark4.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark4.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_memory.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\memory.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark2b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark2b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark2.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark2.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark7b.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark7b.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mark7.png.flat",
+        "source": "C:\\Users\\colin\\AndroidStudioProjects\\realsay\\app\\src\\main\\res\\drawable-v24\\mark7.png"
+    }
+]

@@ -1,0 +1,5 @@
+C:/Users/colin/AndroidStudioProjects/realsay/app/src/main/jni/main.cpp:92:52: warning: format specifies type 'int' but the argument has type 'std::__ndk1::vector<cv::Rect_<int>, std::__ndk1::allocator<cv::Rect_<int> > >::size_type' (aka 'unsigned long') [-Wformat]
+                        (char *) "face %d found ", faces.size());
+                                       ~~          ^~~~~~~~~~~~
+                                       %lu
+1 warning generated.

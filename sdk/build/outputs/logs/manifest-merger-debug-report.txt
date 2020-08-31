@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml:2:1-4:12
 INJECTED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml:2:1-4:12
 INJECTED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml:2:1-4:12
@@ -35,3 +36,40 @@ INJECTED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManif
 		INJECTED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml
 		ADDED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml
 		INJECTED from C:\Users\colin\AndroidStudioProjects\realsay\sdk\java\AndroidManifest.xml
+=======
+ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:3:7-27
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		ADDED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+		INJECTED from C:\Users\DEFAVORITE\Desktop\SayCheese_final\sdk\java\AndroidManifest.xml
+>>>>>>> 7113ce5b884aebda6fc01dda15b0a6f7b4143fbb

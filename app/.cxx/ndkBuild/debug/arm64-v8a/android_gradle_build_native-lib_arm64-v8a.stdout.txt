@@ -1,0 +1,3 @@
+[arm64-v8a] Compile++      : native-lib <= main.cpp
+[arm64-v8a] Prebuilt       : libopencv_java4.so <= C:/Users/colin/AndroidStudioProjects/saycheeze/sdk/native/jni/../libs/arm64-v8a/
+[arm64-v8a] SharedLibrary  : libnative-lib.so
